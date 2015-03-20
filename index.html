@@ -1,1 +1,91 @@
-Hello World
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="description" content="Jesus Gutierrez - Portfolio. Web developer based in the Melbourne Area">
+		<meta name="author" content="Jesus Gutierrez">
+		<title>Jesus Gutierrez - Portfolio</title>
+		<script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+		<!--[if lt IE 9]>
+			<script src="http://css3-mediaqueries-js.googlecode.com/files/css3-mediaqueries.js"></script>
+			<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]-->
+		<link rel="stylesheet" type="text/css" href="style.css" media="screen" />
+	</head>
+	<body>
+		<div id="wrapper">
+			<header id="header">
+				<div class="container">
+			    <h1>Jesus Gutierrez - Web Developer</h1>
+			  </div>
+			</header>
+			<div id="content" class="container">
+				<section class="grid3" id="portfolio">
+					<h1>Portfolio</h1>
+					<article class="col">
+						<a href="http://www.fiscalia.com/" target="_blank"><img src="imgs/fiscalia_portada.png"></a>
+						<h4>Fiscalia</h4>
+						<p>The leading tax information system in Mexico. Currently ranking number 4,732 in the whole country. This site was made with HTML5, PHP, Javascript (Prototype framework), and CSS3.</p>
+					</article>
+
+					<article class="col">
+						<a href="http://fiscalia.mobi/" target="_blank"><img src="imgs/fiscalia_movil.png"></a>
+						<h4>Fiscalia Mobile</h4>
+						<p>The mobile version of the same website. Developed as a web based mobile application. This site was made with HMTL5, PHP, Javascript (jQuery Mobile), and CSS3.</p>
+					</article>
+
+					<article class="col">
+						<a href="http://labs.fiscalia.com/" target="_blank"><img src="imgs/fiscalia_labs.png"></a>
+						<h4>Fiscalia Labs</h4>
+						<p>The sister website designed to use and play with current technologies, and to easily view data in the form of a graph. This site was made with HTML5, PHP, Javascript (jQuery), and CSS3.</p>
+					</article>
+
+					<article class="col">
+						<a href="http://www.lealbenavides.com/" target="_blank"><img src="imgs/leal_benavides.png"></a>
+						<h4>Leal Benavides</h4>
+						<p>This is the landing page for one of the leading consulting and tax auditing firms in Mexico. This site was made with HMTL4, Python (Django), Javascript (jQuery), and CSS2.</p>
+					</article>
+
+					<article class="col">
+						<a href="http://web.archive.org/web/20110110214127/http://www.inturmex.com/" target="_blank"><img src="imgs/inturmex.png"></a>
+						<h4>Inturmex</h4>
+						<p>This was a travel agency website, designed to showcase the different travel packages. The company was sold, and the current version of the site is not the same as the one I built. This site was made with HMTL4, Python (Django), Javascript (jQuery), and CSS2.</p>
+					</article>
+
+					<article class="col">
+						<a href="http://www.misimpuestos.com/" target="_blank"><img src="imgs/mis_impuestos.png"></a>
+						<h4>Mis Impuestos</h4>
+						<p>This website is being made for calculating and keeping track of tax records. This site is a work in progress and not currently finnished. This site was made with HTML5, PHP, Javascript (jQuery), and CSS3.</p>
+					</article>
+				</section>
+				<aside id="contact">
+					<h1>Contact me</h1>
+			    <dl>
+			      <dt>Email</dt>
+			      <dd><a href="mailto:lenuhc@gmail.com" title="Click to send me an email">lenuhc@gmail.com</a></dd>
+						<dt>LinkedIn</dt>
+						<dd><a href="https://www.linkedin.com/in/jesusmgutierrez" title="Click to go" target="_blank">linkedin.com/in/jesusmgutierrez</dd>
+			      <dt>Telephone</dt>
+			      <dd><a href="tel:0420 618290" title="Click to call me">0420618290</a></dd>
+			      <dt>Skype</dt>
+			      <dd><a href="skype:lenuhc?call" title="Click to call me on Skype">lenuhc</a></dd>
+			    </dl>
+			  </aside>
+			</div>
+			<footer id="footer">
+				<div class="container">
+					<h1>&copy;2015 All rights reserved.</h1>
+				</div>
+			</footer>
+		</div>
+		<script>
+		$(function(){
+		  $('#nav').click(function() {
+		    $(this).toggleClass('open');
+		  });
+		});
+		</script>
+	</body>
+</html>
