@@ -118,7 +118,9 @@ section {
   float: left;
   margin: 0 1.5%;
   width: 77%;
+  padding-bottom: 1%;
 }
+
 aside {
   float: right;
   margin: 0 1.5%;
@@ -128,6 +130,10 @@ aside {
 
 #content p{
   margin: 10px;
+}
+
+article {
+  border: 1px black solid;
 }
 
 .container {
@@ -206,7 +212,14 @@ aside {
 	}
 
   section, aside {
-    float: none;
     width: auto;
+  }
+
+  section {
+    padding-bottom: 4%;
+  }
+
+  aside {
+    float: none;
   }
 }
